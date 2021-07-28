@@ -1,0 +1,110 @@
+@{
+    ViewData["Title"] = "Cadastros";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="Pessoa" asp-action="Index">
+                <input type="button" value="Listar Pessoas" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Pessoa" asp-action="Create">
+                <input type="button" value="Cadastrar Pessoa" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="Cliente" asp-action="Index">
+                <input type="button" value="Listar Clientes" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Cliente" asp-action="Create">
+                <input type="button" value="Cadastrar Cliente" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="Funcionario" asp-action="Index">
+                <input type="button" value="Listar Funcionarios" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Funcionario" asp-action="Create">
+                <input type="button" value="Cadastrar Funcionario" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="Animal" asp-action="Index">
+                <input type="button" value="Listar animais" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Animal" asp-action="Create">
+                <input type="button" value="Cadastrar animal" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="Atendimento" asp-action="Index">
+                <input type="button" value="Listar Atendimentos" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Atendimento" asp-action="Create">
+                <input type="button" value="Cadastrar Atendimento" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="TipoAnimal" asp-action="Index">
+                <input type="button" value="Listar tipos de animais" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="TipoAnimal" asp-action="Create">
+                <input type="button" value="Cadastrar tipo animal" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="Raca" asp-action="Index">
+                <input type="button" value="Listar racas" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Raca" asp-action="Create">
+                <input type="button" value="Cadastrar raca" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+    <br />
+    <div class="row">
+        <div class="col-md-3">
+            <a asp-controller="Servico" asp-action="Index">
+                <input type="button" value="Listar servicos" class="btn btn-primary" />
+            </a>
+        </div>
+        <div class="col-md-3">
+            <a asp-controller="Servico" asp-action="Create">
+                <input type="button" value="Cadastrar servico" class="btn btn-primary" />
+            </a>
+        </div>
+    </div>
+</div>
